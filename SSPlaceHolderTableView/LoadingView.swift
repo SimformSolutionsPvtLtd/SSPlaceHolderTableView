@@ -12,6 +12,7 @@ class LoadingView: UIView {
 
     @IBOutlet weak var loadingImage: UIImageView!
     @IBOutlet weak var lblLoadingTitle: UILabel!
+    @IBOutlet weak var constImageCenterOffset: NSLayoutConstraint!
     
     var loadingTitleText: NSAttributedString? {
         didSet {
@@ -32,6 +33,7 @@ class LoadingView: UIView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        constImageCenterOffset = constImageCenterOffset.setMultiplier(multiplier: gCenterOffSetMultiplier)
     }
    
 }

@@ -17,7 +17,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.prefersLargeTitles = true
         tblView.networkDelegate = self
+        tblView.centerOffSetMultiplier = 0.35
+        
     }
     
     @IBAction func btnActionNoDataAPi(_ sender: Any) {

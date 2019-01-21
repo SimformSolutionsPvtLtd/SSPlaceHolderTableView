@@ -22,12 +22,18 @@ public enum SSPlaceHolderStates {
 protocol networkRechabilityProtocol: class {
     func retryNetworkCall()
 }
+var gCenterOffSetMultiplier: CGFloat = 0.75
 
 class TableView: UITableView {
     
-    var objLoadingView: LoadingView?
-    var objNoDataView: NoDataView?
-    var objNetworkUnavailableView: NetworkUnavailableView?
+    private var objLoadingView: LoadingView?
+    private var objNoDataView: NoDataView?
+    private var objNetworkUnavailableView: NetworkUnavailableView?
+    var centerOffSetMultiplier: CGFloat? {
+        didSet {
+            gCenterOffSetMultiplier = centerOffSetMultiplier ?? 0.75
+        }
+    }
     weak var networkDelegate: networkRechabilityProtocol?
     
     override public init(frame: CGRect, style: UITableView.Style) {

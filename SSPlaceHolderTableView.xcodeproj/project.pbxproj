@@ -18,6 +18,7 @@
 		81539F1821EF0C5F003F4F93 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81539F1721EF0C5F003F4F93 /* LoadingView.xib */; };
 		81539F1B21EF2029003F4F93 /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81539F1921EF2029003F4F93 /* NoDataView.swift */; };
 		81539F1C21EF204F003F4F93 /* NoDataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81539F1A21EF2029003F4F93 /* NoDataView.xib */; };
+		8170AB2A21F5BF3B0013C30D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8170AB2921F5BF3B0013C30D /* Extensions.swift */; };
 		81A96F7121F06240002915D4 /* NetworkUnavailableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A96F7021F06240002915D4 /* NetworkUnavailableView.swift */; };
 		81A96F7221F077F6002915D4 /* NetworkUnavailableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81A96F6F21F06240002915D4 /* NetworkUnavailableView.xib */; };
 		81A96F7421F1A54F002915D4 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A96F7321F1A54F002915D4 /* CollectionView.swift */; };
@@ -38,6 +39,7 @@
 		81539F1721EF0C5F003F4F93 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		81539F1921EF2029003F4F93 /* NoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
 		81539F1A21EF2029003F4F93 /* NoDataView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoDataView.xib; sourceTree = "<group>"; };
+		8170AB2921F5BF3B0013C30D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		81A96F6F21F06240002915D4 /* NetworkUnavailableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetworkUnavailableView.xib; sourceTree = "<group>"; };
 		81A96F7021F06240002915D4 /* NetworkUnavailableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUnavailableView.swift; sourceTree = "<group>"; };
 		81A96F7321F1A54F002915D4 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				81A96F6F21F06240002915D4 /* NetworkUnavailableView.xib */,
 				81A96F7021F06240002915D4 /* NetworkUnavailableView.swift */,
 				81265DA821E894390001C11B /* Assets.xcassets */,
+				8170AB2921F5BF3B0013C30D /* Extensions.swift */,
 			);
 			path = SSPlaceHolderTableView;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				81265DA421E894380001C11B /* ViewController.swift in Sources */,
 				81A96F7121F06240002915D4 /* NetworkUnavailableView.swift in Sources */,
 				81539F1621EF0C51003F4F93 /* LoadingView.swift in Sources */,
+				8170AB2A21F5BF3B0013C30D /* Extensions.swift in Sources */,
 				81265DB421E89F8F0001C11B /* TableView.swift in Sources */,
 				81265DA221E894380001C11B /* AppDelegate.swift in Sources */,
 				81539F1B21EF2029003F4F93 /* NoDataView.swift in Sources */,

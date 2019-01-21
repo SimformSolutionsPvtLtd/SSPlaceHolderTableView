@@ -12,6 +12,7 @@ class NoDataView: UIView {
 
     @IBOutlet weak var noDataImage: UIImageView!
     @IBOutlet weak var lblNoDataTitle: UILabel!
+    @IBOutlet weak var constImageCenterOffset: NSLayoutConstraint!
     
     var noDataTitleText: NSAttributedString? {
         didSet {
@@ -32,6 +33,7 @@ class NoDataView: UIView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        constImageCenterOffset = constImageCenterOffset.setMultiplier(multiplier: gCenterOffSetMultiplier)
     }
     
 }

@@ -40,6 +40,7 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="constImageCenterOffset" destination="xrD-dj-as2" id="jIS-P4-Wni"/>
                 <outlet property="lblLoadingTitle" destination="Aq0-6X-1hT" id="C4E-O9-oKW"/>
                 <outlet property="loadingImage" destination="gQd-ZT-pYb" id="1b0-Vy-jRC"/>
             </connections>

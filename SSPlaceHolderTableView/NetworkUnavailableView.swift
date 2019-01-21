@@ -14,6 +14,7 @@ class NetworkUnavailableView: UIView {
     @IBOutlet weak var lblNoInternetTitle: UILabel!
     @IBOutlet var lblNoInternetSubtitle: UILabel!
     @IBOutlet var btnTryAgain: UIButton!
+    @IBOutlet weak var constImageCenterOffset: NSLayoutConstraint!
     
     var noInternetTitleText: NSAttributedString? {
         didSet {
@@ -40,6 +41,7 @@ class NetworkUnavailableView: UIView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
+        constImageCenterOffset = constImageCenterOffset.setMultiplier(multiplier: gCenterOffSetMultiplier)
         btnTryAgain.layer.cornerRadius = 5.0
         btnTryAgain.layer.borderWidth = 1.0
         btnTryAgain.layer.borderColor = UIColor.darkGray.cgColor

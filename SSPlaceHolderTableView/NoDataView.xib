@@ -49,6 +49,7 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="constImageCenterOffset" destination="xrD-dj-as2" id="Pot-uR-kNk"/>
                 <outlet property="lblNoDataTitle" destination="Aq0-6X-1hT" id="e7i-h8-3dY"/>
                 <outlet property="noDataImage" destination="gQd-ZT-pYb" id="bKU-3o-NZt"/>
             </connections>
