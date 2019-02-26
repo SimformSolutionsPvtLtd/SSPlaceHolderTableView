@@ -34,7 +34,7 @@ class TableView: UITableView {
             gCenterOffSetMultiplier = centerOffSetMultiplier ?? 0.75
         }
     }
-    weak var networkDelegate: networkRechabilityProtocol?
+    var networkUnReachableBlock: (() -> Void)?
     
     override public init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)
@@ -114,6 +114,10 @@ class TableView: UITableView {
     }
 
     @objc func retryButtonTapped(sender: UIButton) {
-        networkDelegate?.retryNetworkCall()
+//        networkDelegate?.retryNetworkCall()
+        guard let compl = self.networkUnReachableBlock else {
+            return
+        }
+        compl()
     }
 }

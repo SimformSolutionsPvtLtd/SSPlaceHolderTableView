@@ -17,7 +17,10 @@ class ViewController2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        collectionView.networkDelegate = self
+        collectionView.networkUnReachableBlock = {
+            // put your network Call here.
+            self.callAPI(isForNoData: self.isForNoData)
+        }
     }
     
     @IBAction func btnActionNoDataAPi(_ sender: Any) {
@@ -76,14 +79,4 @@ extension ViewController2 : UICollectionViewDelegate, UICollectionViewDataSource
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "collectionCell", for: indexPath)
         return cell
     }
-}
-
-extension ViewController2: networkRechabilityProtocol {
-    
-    func retryNetworkCall() {
-        // call api
-        print("retry tap>>>")
-        callAPI(isForNoData: isForNoData)
-    }
-    
 }

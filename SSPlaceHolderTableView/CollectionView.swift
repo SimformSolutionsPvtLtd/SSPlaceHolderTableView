@@ -13,7 +13,7 @@ class CollectionView: UICollectionView {
     var objLoadingView: LoadingView?
     var objNoDataView: NoDataView?
     var objNetworkUnavailableView: NetworkUnavailableView?
-    weak var networkDelegate: networkRechabilityProtocol?
+    var networkUnReachableBlock: (() -> Void)?
 
     override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         super.init(frame: frame, collectionViewLayout: layout)
@@ -97,9 +97,14 @@ class CollectionView: UICollectionView {
     }
 
     @objc func retryButtonTapped(sender: UIButton) {
-        networkDelegate?.retryNetworkCall()
+        guard let compl = self.networkUnReachableBlock else {
+            return
+        }
+        compl()
     }
+    
 }
+
 extension String {
     func makeAttributedString(font: UIFont, textColor: UIColor) -> NSAttributedString {
         let attriString = NSAttributedString(string:self, attributes:

@@ -17,10 +17,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.navigationBar.prefersLargeTitles = true
-        tblView.networkDelegate = self
-        tblView.centerOffSetMultiplier = 0.35
-        
+        tblView.networkUnReachableBlock = {
+            // put your network Call here.
+            self.callAPI(isForNoData: self.isForNoData)
+        }
+//        tblView.centerOffSetMultiplier = 0.35      // Change multiplier if you want ot change vertical position of placeHolder Image.
     }
     
     @IBAction func btnActionNoDataAPi(_ sender: Any) {
@@ -34,6 +35,7 @@ class ViewController: UIViewController {
     }
     
 }
+
 extension ViewController {
     func callAPI(isForNoData: Bool) {
         reachability = Reachability()!
@@ -83,14 +85,4 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 50
     }
-}
-
-extension ViewController: networkRechabilityProtocol {
-    
-    func retryNetworkCall() {
-        // call api
-        print("retry tap>>>")
-        callAPI(isForNoData: isForNoData)
-    }
-    
 }
