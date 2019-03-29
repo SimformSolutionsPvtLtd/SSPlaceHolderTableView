@@ -17,14 +17,14 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SSPlaceHolderTableView"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of SSPlaceHolderTableView."
+  spec.summary      = "This is for Placeholder in tableview."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "A short description of SSPlaceHolderTableView."
+  spec.description  = "This is for Placeholder in tableview.By using this you can easily add placeholder view in tableview."
 
   spec.homepage     = "https://github.com/simformsolutions/SSPlaceHolderTableView"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -90,13 +90,13 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/**/*.{h,m,swift,xib}"
+  spec.source_files  = "SSPlaceHolderTableView/SSPlaceHolderTableView/Library/*.{h,m,swift}"
 
   # spec.public_header_files = "Classes/**/*.h"
 
 
-  spec.resources = ['SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Assets.xcassets']
-  spec.resource_bundles = { 'SSPlaceHolderTableView' => [ 'SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Media/Assets.xcassets'] }
+  # spec.resources = ['SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Assets.xcassets']
+  # spec.resource_bundles = { 'SSPlaceHolderTableView' => [ 'SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Assets.xcassets'] }
   spec.documentation_url = 'docs/index.html'
 
 end
