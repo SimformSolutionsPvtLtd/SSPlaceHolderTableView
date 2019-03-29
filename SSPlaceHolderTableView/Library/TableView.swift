@@ -78,7 +78,7 @@ class TableView: UITableView {
         objLoadingView?.loadingTitleText = loadingLabelTitle ?? "Please Wait...".makeAttributedString(font: UIFont.systemFont(ofSize: 25), textColor: .lightGray)
         objLoadingView?.loadingImg = loadingImg ?? UIImage(named: "simformLogo")
         self.backgroundView = objLoadingView
-        self.separatorColor = .clear
+        self.separatorColor = UIColor.clear
         self.dataSource = nil
         self.delegate = nil
     }
@@ -98,7 +98,7 @@ class TableView: UITableView {
             objNoDataView?.noDataImg = noDataImg ?? UIImage(named: "simformLogo")
             self.backgroundView = objNoDataView
         }
-        self.separatorColor = .clear
+        self.separatorColor = UIColor.clear
         self.dataSource = nil
         self.delegate = nil
     }
@@ -108,7 +108,7 @@ class TableView: UITableView {
         objNetworkUnavailableView?.noInternetImg = noInternetImg ?? UIImage(named: "noInternet")
         objNetworkUnavailableView?.btnTryAgain.addTarget(self, action: #selector(retryButtonTapped(sender:)), for: .touchUpInside)
         self.backgroundView = objNetworkUnavailableView
-        self.separatorColor = .clear
+        self.separatorColor = UIColor.clear
         self.dataSource = nil
         self.delegate = nil
     }

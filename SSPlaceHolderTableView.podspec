@@ -63,15 +63,9 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # spec.platform     = :ios
-  # spec.platform     = :ios, "5.0"
-
-  #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  # spec.osx.deployment_target = "10.7"
-  # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
-
+  spec.platform     = :ios
+  spec.ios.deployment_target = "11.0"
+  spec.swift_version = '4.2'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -90,13 +84,13 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "SSPlaceHolderTableView/SSPlaceHolderTableView/Library/*.{h,m,swift}"
+  spec.source_files = 'SSPlaceHolderTableView/Library/*.swift'
 
   # spec.public_header_files = "Classes/**/*.h"
 
 
-  # spec.resources = ['SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Assets.xcassets']
-  # spec.resource_bundles = { 'SSPlaceHolderTableView' => [ 'SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Assets.xcassets'] }
+  spec.resources = ['SSPlaceHolderTableView/XIB/*.xib']
+  spec.resource_bundles = { 'SSPlaceHolderTableView' => [ 'SSPlaceHolderTableView/Assets.xcassets'] }
   spec.documentation_url = 'docs/index.html'
 
 end
