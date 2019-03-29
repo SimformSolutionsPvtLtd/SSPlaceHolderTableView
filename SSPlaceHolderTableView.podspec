@@ -52,16 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "Vishal Patel" => "vishal.p@simformsolutions.com" }
-  # Or just: spec.author    = "Vishal Patel"
-  # spec.authors            = { "Vishal Patel" => "vishal.p@simformsolutions.com" }
-  # spec.social_media_url   = "https://twitter.com/Vishal Patel"
-
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  If this Pod runs only on iOS or OS X, then specify the platform and
-  #  the deployment target. You can optionally include the target after the platform.
-  #
+  spec.author             = { "simform solutions" => "reg@simform.in" }
 
   spec.platform     = :ios
   spec.ios.deployment_target = "11.0"
