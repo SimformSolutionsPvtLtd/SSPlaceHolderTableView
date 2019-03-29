@@ -85,12 +85,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.source_files = 'SSPlaceHolderTableView/Library/*.swift'
-
-  # spec.public_header_files = "Classes/**/*.h"
-
-
-  spec.resources = ['SSPlaceHolderTableView/XIB/*.xib']
-  spec.resource_bundles = { 'SSPlaceHolderTableView' => [ 'SSPlaceHolderTableView/Assets.xcassets'] }
+  spec.resources = ['SSPlaceHolderTableView/XIB/*.xib','SSPlaceHolderTableView/Assets.xcassets']
   spec.documentation_url = 'docs/index.html'
 
 end
