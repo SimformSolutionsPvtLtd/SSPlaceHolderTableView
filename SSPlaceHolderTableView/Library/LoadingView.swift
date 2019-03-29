@@ -26,6 +26,7 @@ public class LoadingView: UIView {
         }
     }
     
+    
     class func instanceFromNib() -> LoadingView {
         let bundle = Bundle(for: self.classForCoder())
         let vw = UINib(nibName: "LoadingView", bundle: bundle).instantiate(withOwner: nil, options: nil).first as! LoadingView

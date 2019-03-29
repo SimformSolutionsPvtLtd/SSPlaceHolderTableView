@@ -26,9 +26,9 @@ var gCenterOffSetMultiplier: CGFloat = 0.75
 
 public class TableView: UITableView {
     
-    private var objLoadingView: LoadingView?
-    private var objNoDataView: NoDataView?
-    private var objNetworkUnavailableView: NetworkUnavailableView?
+    var objLoadingView: LoadingView?
+    var objNoDataView: NoDataView?
+    var objNetworkUnavailableView: NetworkUnavailableView?
     var centerOffSetMultiplier: CGFloat? {
         didSet {
             gCenterOffSetMultiplier = centerOffSetMultiplier ?? 0.75

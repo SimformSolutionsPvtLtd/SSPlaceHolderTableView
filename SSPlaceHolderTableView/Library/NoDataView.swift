@@ -16,7 +16,7 @@ public class NoDataView: UIView {
     
     var noDataTitleText: NSAttributedString? {
         didSet {
-            lblNoDataTitle.attributedText = self.noDataTitleText
+           lblNoDataTitle.attributedText = self.noDataTitleText
         }
     }
     
@@ -27,8 +27,7 @@ public class NoDataView: UIView {
     }
     
     class func instanceFromNib() -> NoDataView {
-        let bundle = Bundle(for: self.classForCoder())
-        let vw = UINib(nibName: "NoDataView", bundle: bundle).instantiate(withOwner: nil, options: nil).first as! NoDataView
+        let vw = UINib(nibName: "NoDataView", bundle: Bundle(for: self.classForCoder())).instantiate(withOwner: nil, options: nil).first as! NoDataView
         return vw
     }
     
