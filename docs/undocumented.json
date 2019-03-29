@@ -1,0 +1,950 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/AppDelegate.swift",
+      "line": 12,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/AppDelegate.swift",
+      "line": 14,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/AppDelegate.swift",
+      "line": 17,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/AppDelegate.swift",
+      "line": 22,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/AppDelegate.swift",
+      "line": 27,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/AppDelegate.swift",
+      "line": 32,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/AppDelegate.swift",
+      "line": 36,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/AppDelegate.swift",
+      "line": 40,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/CollectionView.swift",
+      "line": 11,
+      "symbol": "CollectionView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/CollectionView.swift",
+      "line": 13,
+      "symbol": "CollectionView.objLoadingView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/CollectionView.swift",
+      "line": 14,
+      "symbol": "CollectionView.objNoDataView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/CollectionView.swift",
+      "line": 15,
+      "symbol": "CollectionView.objNetworkUnavailableView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/CollectionView.swift",
+      "line": 16,
+      "symbol": "CollectionView.networkUnReachableBlock",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/CollectionView.swift",
+      "line": 18,
+      "symbol": "CollectionView.init(frame:collectionViewLayout:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/CollectionView.swift",
+      "line": 23,
+      "symbol": "CollectionView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/CollectionView.swift",
+      "line": 34,
+      "symbol": "CollectionView.setState(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/CollectionView.swift",
+      "line": 99,
+      "symbol": "CollectionView.retryButtonTapped(sender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/CollectionView.swift",
+      "line": 109,
+      "symbol": "String.makeAttributedString(font:textColor:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/LoadingView.swift",
+      "line": 11,
+      "symbol": "LoadingView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/LoadingView.swift",
+      "line": 13,
+      "symbol": "LoadingView.loadingImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/LoadingView.swift",
+      "line": 14,
+      "symbol": "LoadingView.lblLoadingTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/LoadingView.swift",
+      "line": 15,
+      "symbol": "LoadingView.constImageCenterOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/LoadingView.swift",
+      "line": 17,
+      "symbol": "LoadingView.loadingTitleText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/LoadingView.swift",
+      "line": 23,
+      "symbol": "LoadingView.loadingImg",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/LoadingView.swift",
+      "line": 29,
+      "symbol": "LoadingView.instanceFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/LoadingView.swift",
+      "line": 34,
+      "symbol": "LoadingView.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NetworkUnavailableView.swift",
+      "line": 11,
+      "symbol": "NetworkUnavailableView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NetworkUnavailableView.swift",
+      "line": 13,
+      "symbol": "NetworkUnavailableView.noInternetImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NetworkUnavailableView.swift",
+      "line": 14,
+      "symbol": "NetworkUnavailableView.lblNoInternetTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NetworkUnavailableView.swift",
+      "line": 15,
+      "symbol": "NetworkUnavailableView.lblNoInternetSubtitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NetworkUnavailableView.swift",
+      "line": 16,
+      "symbol": "NetworkUnavailableView.btnTryAgain",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NetworkUnavailableView.swift",
+      "line": 17,
+      "symbol": "NetworkUnavailableView.constImageCenterOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NetworkUnavailableView.swift",
+      "line": 19,
+      "symbol": "NetworkUnavailableView.noInternetTitleText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NetworkUnavailableView.swift",
+      "line": 25,
+      "symbol": "NetworkUnavailableView.noInternetSubTitleText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NetworkUnavailableView.swift",
+      "line": 31,
+      "symbol": "NetworkUnavailableView.noInternetImg",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NetworkUnavailableView.swift",
+      "line": 37,
+      "symbol": "NetworkUnavailableView.instanceFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NetworkUnavailableView.swift",
+      "line": 42,
+      "symbol": "NetworkUnavailableView.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NoDataView.swift",
+      "line": 11,
+      "symbol": "NoDataView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NoDataView.swift",
+      "line": 13,
+      "symbol": "NoDataView.noDataImage",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NoDataView.swift",
+      "line": 14,
+      "symbol": "NoDataView.lblNoDataTitle",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NoDataView.swift",
+      "line": 15,
+      "symbol": "NoDataView.constImageCenterOffset",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NoDataView.swift",
+      "line": 17,
+      "symbol": "NoDataView.noDataTitleText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NoDataView.swift",
+      "line": 23,
+      "symbol": "NoDataView.noDataImg",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NoDataView.swift",
+      "line": 29,
+      "symbol": "NoDataView.instanceFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/NoDataView.swift",
+      "line": 34,
+      "symbol": "NoDataView.awakeFromNib()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 11,
+      "symbol": "SSPlaceHolderStates",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 12,
+      "symbol": "SSPlaceHolderStates.dataAvailable(viewController:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 13,
+      "symbol": "SSPlaceHolderStates.noDataAvailable(noDataImg:noDataLabelTitle:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 14,
+      "symbol": "SSPlaceHolderStates.noDataAvailableWithCustomView(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 15,
+      "symbol": "SSPlaceHolderStates.loading(loadingImg:loadingLabelTitle:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 16,
+      "symbol": "SSPlaceHolderStates.loadingWithCustomView(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 17,
+      "symbol": "SSPlaceHolderStates.checkInternetAvaibility(noInternetImg:noInternetLabelTitle:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 18,
+      "symbol": "SSPlaceHolderStates.checkInternetAvaibilityCustomView(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 19,
+      "symbol": "SSPlaceHolderStates.unknown",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 22,
+      "symbol": "networkRechabilityProtocol",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 23,
+      "symbol": "networkRechabilityProtocol.retryNetworkCall()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 25,
+      "symbol": "gCenterOffSetMultiplier",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 27,
+      "symbol": "TableView",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 32,
+      "symbol": "TableView.centerOffSetMultiplier",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 37,
+      "symbol": "TableView.networkUnReachableBlock",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 39,
+      "symbol": "TableView.init(frame:style:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 45,
+      "symbol": "TableView.init(coder:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 56,
+      "symbol": "TableView.setState(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Library/TableView.swift",
+      "line": 116,
+      "symbol": "TableView.retryButtonTapped(sender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": null,
+      "symbol": "Reachability",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 31,
+      "symbol": "ReachabilityError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 32,
+      "symbol": "ReachabilityError.FailedToCreateWithAddress(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 33,
+      "symbol": "ReachabilityError.FailedToCreateWithHostname(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 34,
+      "symbol": "ReachabilityError.UnableToSetCallback",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 35,
+      "symbol": "ReachabilityError.UnableToSetDispatchQueue",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 36,
+      "symbol": "ReachabilityError.UnableToGetInitialFlags",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 43,
+      "symbol": "Notification.Name.reachabilityChanged",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 46,
+      "symbol": "Reachability",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 48,
+      "symbol": "Reachability.NetworkReachable",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 49,
+      "symbol": "Reachability.NetworkUnreachable",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 63,
+      "symbol": "Reachability.Connection",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 64,
+      "symbol": "Reachability.Connection.cellular",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 64,
+      "symbol": "Reachability.Connection.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 64,
+      "symbol": "Reachability.Connection.wifi",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 74,
+      "symbol": "Reachability.whenReachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 75,
+      "symbol": "Reachability.whenUnreachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 78,
+      "symbol": "Reachability.reachableOnWWAN",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 84,
+      "symbol": "Reachability.notificationCenter",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 87,
+      "symbol": "Reachability.currentReachabilityString",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 96,
+      "symbol": "Reachability.connection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 119,
+      "symbol": "Reachability.flags",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 126,
+      "symbol": "Reachability.init(reachabilityRef:queueQoS:targetQueue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 132,
+      "symbol": "Reachability.init(hostname:queueQoS:targetQueue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 137,
+      "symbol": "Reachability.init(queueQoS:targetQueue:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 147,
+      "symbol": "Reachability.deinit",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 155,
+      "symbol": "Reachability.startNotifier()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 183,
+      "symbol": "Reachability.stopNotifier()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 192,
+      "symbol": "Reachability.isReachable",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 197,
+      "symbol": "Reachability.isReachableViaWWAN",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 203,
+      "symbol": "Reachability.isReachableViaWiFi",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 207,
+      "symbol": "Reachability.description",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 250,
+      "symbol": "SCNetworkReachabilityFlags.Connection",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 252,
+      "symbol": "SCNetworkReachabilityFlags.connection",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 279,
+      "symbol": "SCNetworkReachabilityFlags.isOnWWANFlagSet",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 286,
+      "symbol": "SCNetworkReachabilityFlags.isReachableFlagSet",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 289,
+      "symbol": "SCNetworkReachabilityFlags.isConnectionRequiredFlagSet",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 292,
+      "symbol": "SCNetworkReachabilityFlags.isInterventionRequiredFlagSet",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 295,
+      "symbol": "SCNetworkReachabilityFlags.isConnectionOnTrafficFlagSet",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 298,
+      "symbol": "SCNetworkReachabilityFlags.isConnectionOnDemandFlagSet",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 301,
+      "symbol": "SCNetworkReachabilityFlags.isConnectionOnTrafficOrDemandFlagSet",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 304,
+      "symbol": "SCNetworkReachabilityFlags.isTransientConnectionFlagSet",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 307,
+      "symbol": "SCNetworkReachabilityFlags.isLocalAddressFlagSet",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 310,
+      "symbol": "SCNetworkReachabilityFlags.isDirectFlagSet",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/Reachability.swift",
+      "line": 313,
+      "symbol": "SCNetworkReachabilityFlags.isConnectionRequiredAndTransientFlagSet",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": null,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": null,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": 11,
+      "symbol": "ViewController",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": 13,
+      "symbol": "ViewController.tblView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": 14,
+      "symbol": "ViewController.reachability",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": 15,
+      "symbol": "ViewController.isForNoData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": 17,
+      "symbol": "ViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": 26,
+      "symbol": "ViewController.btnActionNoDataAPi(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": 31,
+      "symbol": "ViewController.btnActionDataApi(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": 39,
+      "symbol": "ViewController.callAPI(isForNoData:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": 73,
+      "symbol": "ViewController.numberOfSections(in:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": 76,
+      "symbol": "ViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": 79,
+      "symbol": "ViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController.swift",
+      "line": 84,
+      "symbol": "ViewController.tableView(_:heightForHeaderInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController2.swift",
+      "line": null,
+      "symbol": "ViewController2",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController2.swift",
+      "line": null,
+      "symbol": "ViewController2",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController2.swift",
+      "line": 11,
+      "symbol": "ViewController2",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController2.swift",
+      "line": 13,
+      "symbol": "ViewController2.collectionView",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController2.swift",
+      "line": 14,
+      "symbol": "ViewController2.reachability",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController2.swift",
+      "line": 15,
+      "symbol": "ViewController2.isForNoData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController2.swift",
+      "line": 17,
+      "symbol": "ViewController2.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController2.swift",
+      "line": 25,
+      "symbol": "ViewController2.btnActionNoDataAPi(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController2.swift",
+      "line": 30,
+      "symbol": "ViewController2.btnActionDataApi(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController2.swift",
+      "line": 37,
+      "symbol": "ViewController2.callAPI(isForNoData:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController2.swift",
+      "line": 73,
+      "symbol": "ViewController2.collectionView(_:numberOfItemsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo/SSPlaceHolderTableView/ViewController2.swift",
+      "line": 77,
+      "symbol": "ViewController2.collectionView(_:cellForItemAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/vishal.patel/Desktop/SimformWork/SSPlaceHolder_ GitHub/Source/SSPlaceHolderTableView_Demo/SSPlaceHolderTableView-Demo"
+}

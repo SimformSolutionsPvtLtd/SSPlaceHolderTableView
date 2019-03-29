@@ -7,6 +7,4 @@ target 'SSPlaceHolderTableView' do
 
   # Pods for SSPlaceHolderTableView
 
-pod 'ReachabilitySwift'
-
 end

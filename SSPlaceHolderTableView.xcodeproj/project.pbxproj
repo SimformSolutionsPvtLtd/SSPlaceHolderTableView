@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03A351028DCB9FABE77A9ECB /* Pods_SSPlaceHolderTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA6FA38567D19F5CBC771208 /* Pods_SSPlaceHolderTableView.framework */; };
+		458AC88F05AF58FC7D3C6BF8 /* Pods_SSPlaceHolderTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C60C807B9961F6410C5993E9 /* Pods_SSPlaceHolderTableView.framework */; };
 		81265DA221E894380001C11B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81265DA121E894380001C11B /* AppDelegate.swift */; };
 		81265DA421E894380001C11B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81265DA321E894380001C11B /* ViewController.swift */; };
 		81265DA721E894380001C11B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81265DA521E894380001C11B /* Main.storyboard */; };
@@ -23,10 +23,11 @@
 		81A96F7221F077F6002915D4 /* NetworkUnavailableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81A96F6F21F06240002915D4 /* NetworkUnavailableView.xib */; };
 		81A96F7421F1A54F002915D4 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A96F7321F1A54F002915D4 /* CollectionView.swift */; };
 		81A96F7621F1C964002915D4 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A96F7521F1C964002915D4 /* ViewController2.swift */; };
+		81BC0BB8224E13EC00AE73C2 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BC0BB7224E13EB00AE73C2 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		47C0D8687425A51C346A6454 /* Pods-SSPlaceHolderTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSPlaceHolderTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSPlaceHolderTableView/Pods-SSPlaceHolderTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		2E04D14E6FF42339D25F3403 /* Pods-SSPlaceHolderTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSPlaceHolderTableView.release.xcconfig"; path = "Target Support Files/Pods-SSPlaceHolderTableView/Pods-SSPlaceHolderTableView.release.xcconfig"; sourceTree = "<group>"; };
 		81265D9E21E894380001C11B /* SSPlaceHolderTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSPlaceHolderTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81265DA121E894380001C11B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81265DA321E894380001C11B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,8 +45,9 @@
 		81A96F7021F06240002915D4 /* NetworkUnavailableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUnavailableView.swift; sourceTree = "<group>"; };
 		81A96F7321F1A54F002915D4 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
 		81A96F7521F1C964002915D4 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
-		AA6FA38567D19F5CBC771208 /* Pods_SSPlaceHolderTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSPlaceHolderTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9581C0F5F0F89F5E80F1E95 /* Pods-SSPlaceHolderTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSPlaceHolderTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSPlaceHolderTableView/Pods-SSPlaceHolderTableView.release.xcconfig"; sourceTree = "<group>"; };
+		81BC0BB7224E13EB00AE73C2 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		C60C807B9961F6410C5993E9 /* Pods_SSPlaceHolderTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSPlaceHolderTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6D03242DF5CD118D7969D4 /* Pods-SSPlaceHolderTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSPlaceHolderTableView.debug.xcconfig"; path = "Target Support Files/Pods-SSPlaceHolderTableView/Pods-SSPlaceHolderTableView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,20 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03A351028DCB9FABE77A9ECB /* Pods_SSPlaceHolderTableView.framework in Frameworks */,
+				458AC88F05AF58FC7D3C6BF8 /* Pods_SSPlaceHolderTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A5C5E4DC167BCC1FF792245 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF6D03242DF5CD118D7969D4 /* Pods-SSPlaceHolderTableView.debug.xcconfig */,
+				2E04D14E6FF42339D25F3403 /* Pods-SSPlaceHolderTableView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		81265D9521E894380001C11B = {
 			isa = PBXGroup;
 			children = (
 				81265DA021E894380001C11B /* SSPlaceHolderTableView */,
 				81265D9F21E894380001C11B /* Products */,
-				9D7A4CA430158D7005DF2006 /* Pods */,
 				E935BDBEA14FCB0D2F242C8D /* Frameworks */,
+				1A5C5E4DC167BCC1FF792245 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,12 +92,22 @@
 		81265DA021E894380001C11B /* SSPlaceHolderTableView */ = {
 			isa = PBXGroup;
 			children = (
+				81BC0BB6224E0AD400AE73C2 /* Library */,
 				81265DA121E894380001C11B /* AppDelegate.swift */,
 				81265DA321E894380001C11B /* ViewController.swift */,
 				81A96F7521F1C964002915D4 /* ViewController2.swift */,
 				81265DA521E894380001C11B /* Main.storyboard */,
 				81265DAA21E894390001C11B /* LaunchScreen.storyboard */,
+				81BC0BB7224E13EB00AE73C2 /* Reachability.swift */,
 				81265DAD21E894390001C11B /* Info.plist */,
+				81265DA821E894390001C11B /* Assets.xcassets */,
+			);
+			path = SSPlaceHolderTableView;
+			sourceTree = "<group>";
+		};
+		81BC0BB6224E0AD400AE73C2 /* Library */ = {
+			isa = PBXGroup;
+			children = (
 				81265DB321E89F8F0001C11B /* TableView.swift */,
 				81A96F7321F1A54F002915D4 /* CollectionView.swift */,
 				81539F1A21EF2029003F4F93 /* NoDataView.xib */,
@@ -95,25 +116,15 @@
 				81539F1521EF0C51003F4F93 /* LoadingView.swift */,
 				81A96F6F21F06240002915D4 /* NetworkUnavailableView.xib */,
 				81A96F7021F06240002915D4 /* NetworkUnavailableView.swift */,
-				81265DA821E894390001C11B /* Assets.xcassets */,
 				8170AB2921F5BF3B0013C30D /* Extensions.swift */,
 			);
-			path = SSPlaceHolderTableView;
-			sourceTree = "<group>";
-		};
-		9D7A4CA430158D7005DF2006 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				47C0D8687425A51C346A6454 /* Pods-SSPlaceHolderTableView.debug.xcconfig */,
-				E9581C0F5F0F89F5E80F1E95 /* Pods-SSPlaceHolderTableView.release.xcconfig */,
-			);
-			name = Pods;
+			path = Library;
 			sourceTree = "<group>";
 		};
 		E935BDBEA14FCB0D2F242C8D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AA6FA38567D19F5CBC771208 /* Pods_SSPlaceHolderTableView.framework */,
+				C60C807B9961F6410C5993E9 /* Pods_SSPlaceHolderTableView.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -129,7 +140,6 @@
 				81265D9A21E894380001C11B /* Sources */,
 				81265D9B21E894380001C11B /* Frameworks */,
 				81265D9C21E894380001C11B /* Resources */,
-				E2B3B111BE13ADB521ADED3C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,24 +218,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E2B3B111BE13ADB521ADED3C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SSPlaceHolderTableView/Pods-SSPlaceHolderTableView-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSPlaceHolderTableView/Pods-SSPlaceHolderTableView-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -241,6 +233,7 @@
 				81265DA221E894380001C11B /* AppDelegate.swift in Sources */,
 				81539F1B21EF2029003F4F93 /* NoDataView.swift in Sources */,
 				81A96F7621F1C964002915D4 /* ViewController2.swift in Sources */,
+				81BC0BB8224E13EC00AE73C2 /* Reachability.swift in Sources */,
 				81A96F7421F1A54F002915D4 /* CollectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,7 +378,7 @@
 		};
 		81265DB121E894390001C11B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47C0D8687425A51C346A6454 /* Pods-SSPlaceHolderTableView.debug.xcconfig */;
+			baseConfigurationReference = CF6D03242DF5CD118D7969D4 /* Pods-SSPlaceHolderTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -405,7 +398,7 @@
 		};
 		81265DB221E894390001C11B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9581C0F5F0F89F5E80F1E95 /* Pods-SSPlaceHolderTableView.release.xcconfig */;
+			baseConfigurationReference = 2E04D14E6FF42339D25F3403 /* Pods-SSPlaceHolderTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
