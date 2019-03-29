@@ -35,7 +35,8 @@ class NetworkUnavailableView: UIView {
     }
     
     class func instanceFromNib() -> NetworkUnavailableView {
-        let vw = UINib(nibName: "NetworkUnavailableView", bundle: nil).instantiate(withOwner: nil, options: nil).first as! NetworkUnavailableView
+        let bundle = Bundle(for: self.classForCoder())
+        let vw = UINib(nibName: "NetworkUnavailableView", bundle: bundle).instantiate(withOwner: nil, options: nil).first as! NetworkUnavailableView
         return vw
     }
     

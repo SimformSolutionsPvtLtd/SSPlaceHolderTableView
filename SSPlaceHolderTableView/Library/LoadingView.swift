@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoadingView: UIView {
+public class LoadingView: UIView {
 
     @IBOutlet weak var loadingImage: UIImageView!
     @IBOutlet weak var lblLoadingTitle: UILabel!
@@ -27,11 +27,12 @@ class LoadingView: UIView {
     }
     
     class func instanceFromNib() -> LoadingView {
-        let vw = UINib(nibName: "LoadingView", bundle: nil).instantiate(withOwner: nil, options: nil).first as! LoadingView
+        let bundle = Bundle(for: self.classForCoder())
+        let vw = UINib(nibName: "LoadingView", bundle: bundle).instantiate(withOwner: nil, options: nil).first as! LoadingView
         return vw
     }
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         constImageCenterOffset = constImageCenterOffset.setMultiplier(multiplier: gCenterOffSetMultiplier)
     }

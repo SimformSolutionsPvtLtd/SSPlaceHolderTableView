@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NoDataView: UIView {
+public class NoDataView: UIView {
 
     @IBOutlet weak var noDataImage: UIImageView!
     @IBOutlet weak var lblNoDataTitle: UILabel!
@@ -27,11 +27,12 @@ class NoDataView: UIView {
     }
     
     class func instanceFromNib() -> NoDataView {
-        let vw = UINib(nibName: "NoDataView", bundle: nil).instantiate(withOwner: nil, options: nil).first as! NoDataView
+        let bundle = Bundle(for: self.classForCoder())
+        let vw = UINib(nibName: "NoDataView", bundle: bundle).instantiate(withOwner: nil, options: nil).first as! NoDataView
         return vw
     }
     
-    override func awakeFromNib() {
+    override public func awakeFromNib() {
         super.awakeFromNib()
         constImageCenterOffset = constImageCenterOffset.setMultiplier(multiplier: gCenterOffSetMultiplier)
     }

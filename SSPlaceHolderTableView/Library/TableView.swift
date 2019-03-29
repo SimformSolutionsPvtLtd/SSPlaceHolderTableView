@@ -24,7 +24,7 @@ protocol networkRechabilityProtocol: class {
 }
 var gCenterOffSetMultiplier: CGFloat = 0.75
 
-class TableView: UITableView {
+public class TableView: UITableView {
     
     private var objLoadingView: LoadingView?
     private var objNoDataView: NoDataView?
@@ -34,7 +34,7 @@ class TableView: UITableView {
             gCenterOffSetMultiplier = centerOffSetMultiplier ?? 0.75
         }
     }
-    var networkUnReachableBlock: (() -> Void)?
+    public var networkUnReachableBlock: (() -> Void)?
     
     override public init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)

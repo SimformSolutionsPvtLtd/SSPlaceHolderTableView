@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CollectionView: UICollectionView {
+public class CollectionView: UICollectionView {
     
     var objLoadingView: LoadingView?
     var objNoDataView: NoDataView?
