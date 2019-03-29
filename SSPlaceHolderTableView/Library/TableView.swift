@@ -107,7 +107,8 @@ public class TableView: UITableView {
     
     private func checkInternetAndShowView(noInternetImg: UIImage?, noInternetLabelTitle: NSAttributedString?, customView: UIView?) {
         objNetworkUnavailableView?.noInternetTitleText = noInternetLabelTitle ?? "NO INTERNET".makeAttributedString(font: UIFont.systemFont(ofSize: 25), textColor: .lightGray)
-        objNetworkUnavailableView?.noInternetImg = noInternetImg ?? UIImage(named: "noInternet")
+        let img = UIImage(named: "noInternet", in: Bundle(identifier: "org.cocoapods.SSPlaceHolderTableView"), compatibleWith: nil)
+        objNetworkUnavailableView?.noInternetImg = noInternetImg ?? img
         objNetworkUnavailableView?.btnTryAgain.addTarget(self, action: #selector(retryButtonTapped(sender:)), for: .touchUpInside)
         self.backgroundView = objNetworkUnavailableView
         self.separatorColor = UIColor.clear
