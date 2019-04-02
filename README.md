@@ -1,9 +1,9 @@
 # SSPlaceHolderTableView
 
-> This is simple and easy state wise PlaceHolder for TableView and CollectionView.
+> This is simple, customised and easy state wise PlaceHolder for TableView and CollectionView.
 
 [![Version](https://img.shields.io/cocoapods/v/SSPlaceHolderTableView.svg?style=flat)](https://cocoapods.org/pods/SSPlaceHolderTableView)
-[![License](https://img.shields.io/cocoapods/l/SSPlaceHolderTableViewr.svg?style=flat)](https://cocoapods.org/pods/SSPlaceHolderTableView)
+[![License][license-image]][license-url]
 [![Platform](https://img.shields.io/cocoapods/p/SSPlaceHolderTableView.svg?style=flat)](https://cocoapods.org/pods/SSPlaceHolderTableView)
 [![Swift Version][swift-image]][swift-url]
 [![PRs Welcome][PR-image]][PR-url]
@@ -31,6 +31,40 @@ pod 'SSPlaceHolderTableView'
 
 ### Set UICollectionView to CollectionView
 ![alt text](https://raw.githubusercontent.com/simformsolutions/SSPlaceHolderTableView/master/SSPlaceHolderTableView/ScreenShot/CollectionView.png)
+
+### Set TableView State to Use Placeholder TableView
+
+## Usage example
+
+  **NetworkUnReachableBlock**
+-If you want to use inbuild Rechability for api call, You can simply add you api call inside this networkUnReachableBlock
+-Put this code in *viewDidLoad*
+    
+    tblView.networkUnReachableBlock = {
+            // put your API Call here.
+        }
+**Loading State**   
+    - You can put this state before you API call or data collectng method.
+    - **Customisation**: In loadingImg param You can pass your custom image and in loadingLabelTitle you can pass your custom attributed string.
+    
+    tblView.setState(.loading(loadingImg: nil, loadingLabelTitle: nil))
+        
+**Data Available State**   
+    - When your data successfully available simply put this line in your code.
+    
+    tblView.setState(.dataAvailable(viewController: self))
+**Data UnAvailable State**   
+    - When your data not available simply put this line in your code.
+    - **Customisation**: In noDataImg param You can pass your custom image for no data and in noDataLabelTitle you can pass your custom attributed string.
+    
+    tblView.setState(.noDataAvailable(noDataImg: nil, noDataLabelTitle: nil))
+**No Internet available State**       
+    - When Internet is not available put this line.
+    - **Customisation**: In noInternetImg param You can pass your custom image for no internet state and in noInternetLabelTitle you can pass your custom attributed string.
+    
+    tblView.setState(.checkInternetAvaibility(noInternetImg: nil, noInternetLabelTitle: nil))
+## NOTE
+- If you want to use this in UICollectionView Simply replace you collectionView object with tblView in above codes.
 
 ## Contribute
 
