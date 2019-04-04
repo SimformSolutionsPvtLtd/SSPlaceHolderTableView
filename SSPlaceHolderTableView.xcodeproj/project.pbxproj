@@ -96,13 +96,11 @@
 		81265DA021E894380001C11B /* SSPlaceHolderTableView */ = {
 			isa = PBXGroup;
 			children = (
+				81B7E48D2255C2AF001A069F /* Example */,
 				814D9F98224E655C00348A41 /* ScreenShot */,
 				8135D143224E1E5E00B1CD0D /* XIB */,
 				81BC0BB6224E0AD400AE73C2 /* Library */,
 				81265DA121E894380001C11B /* AppDelegate.swift */,
-				81265DA321E894380001C11B /* ViewController.swift */,
-				81A96F7521F1C964002915D4 /* ViewController2.swift */,
-				81265DA521E894380001C11B /* Main.storyboard */,
 				81265DAA21E894390001C11B /* LaunchScreen.storyboard */,
 				81265DAD21E894390001C11B /* Info.plist */,
 				81265DA821E894390001C11B /* Assets.xcassets */,
@@ -127,6 +125,16 @@
 				814D9F99224E657600348A41 /* TableView.png */,
 			);
 			path = ScreenShot;
+			sourceTree = "<group>";
+		};
+		81B7E48D2255C2AF001A069F /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				81265DA321E894380001C11B /* ViewController.swift */,
+				81A96F7521F1C964002915D4 /* ViewController2.swift */,
+				81265DA521E894380001C11B /* Main.storyboard */,
+			);
+			path = Example;
 			sourceTree = "<group>";
 		};
 		81BC0BB6224E0AD400AE73C2 /* Library */ = {
