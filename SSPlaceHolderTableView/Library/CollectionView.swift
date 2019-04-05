@@ -57,7 +57,8 @@ public class CollectionView: UICollectionView {
             self.backgroundView = customView
         } else {
             objLoadingView?.loadingTitleText = loadingLabelTitle ?? "Please Wait...".makeAttributedString(font: UIFont.systemFont(ofSize: 25), textColor: .lightGray)
-            objLoadingView?.loadingImg = loadingImg ?? UIImage(named: "simformLogo")
+            let img = UIImage(named: "loading", in: Bundle(identifier: "org.cocoapods.SSPlaceHolderTableView"), compatibleWith: nil)
+            objLoadingView?.loadingImg = loadingImg ?? img
             self.backgroundView = objLoadingView
         }
         self.dataSource = nil
@@ -76,7 +77,8 @@ public class CollectionView: UICollectionView {
             self.backgroundView = customView
         } else {
             objNoDataView?.noDataTitleText = noDataLabelTitle ?? "NO DATA FOUND.".makeAttributedString(font: UIFont.systemFont(ofSize: 25), textColor: .lightGray)
-            objNoDataView?.noDataImg = noDataImg ?? UIImage(named: "simformLogo")
+            let img = UIImage(named: "noData", in: Bundle(identifier: "org.cocoapods.SSPlaceHolderTableView"), compatibleWith: nil)
+            objNoDataView?.noDataImg = noDataImg ?? img
             self.backgroundView = objNoDataView
         }
         self.dataSource = nil
@@ -88,7 +90,8 @@ public class CollectionView: UICollectionView {
             self.backgroundView = customView
         } else {
             objNetworkUnavailableView?.noInternetTitleText = noInternetLabelTitle ?? "NO    INTERNET".makeAttributedString(font: UIFont.systemFont(ofSize: 25), textColor: .lightGray)
-            objNetworkUnavailableView?.noInternetImg = noInternetImg ?? UIImage(named: "noInternet")
+            let img = UIImage(named: "noInternet", in: Bundle(identifier: "org.cocoapods.SSPlaceHolderTableView"), compatibleWith: nil)
+            objNetworkUnavailableView?.noInternetImg = noInternetImg ?? img
             objNetworkUnavailableView?.btnTryAgain.addTarget(self, action: #selector(retryButtonTapped(sender:)),   for: .touchUpInside)
             self.backgroundView = objNetworkUnavailableView
         }

@@ -76,7 +76,7 @@ public class TableView: UITableView {
     
     private func showLoadingTableView(loadingImg: UIImage?, loadingLabelTitle: NSAttributedString?, customView: UIView?) {
         objLoadingView?.loadingTitleText = loadingLabelTitle ?? "Please Wait...".makeAttributedString(font: UIFont.systemFont(ofSize: 25), textColor: .lightGray)
-        let img = UIImage(named: "logo", in: Bundle(identifier: "org.cocoapods.SSPlaceHolderTableView"), compatibleWith: nil)
+        let img = UIImage(named: "loading", in: Bundle(identifier: "org.cocoapods.SSPlaceHolderTableView"), compatibleWith: nil)
         objLoadingView?.loadingImg = loadingImg ?? img
         self.backgroundView = objLoadingView
         self.separatorColor = UIColor.clear
@@ -96,7 +96,7 @@ public class TableView: UITableView {
             self.backgroundView = customView
         } else {
             objNoDataView?.noDataTitleText = noDataLabelTitle ?? "NO DATA FOUND.".makeAttributedString(font: UIFont.systemFont(ofSize: 25), textColor: .lightGray)
-            let img = UIImage(named: "logo", in: Bundle(identifier: "org.cocoapods.SSPlaceHolderTableView"), compatibleWith: nil)
+            let img = UIImage(named: "noData", in: Bundle(identifier: "org.cocoapods.SSPlaceHolderTableView"), compatibleWith: nil)
             objNoDataView?.noDataImg = noDataImg ?? img
             self.backgroundView = objNoDataView
         }

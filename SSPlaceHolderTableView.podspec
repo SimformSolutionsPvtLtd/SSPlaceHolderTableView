@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SSPlaceHolderTableView"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "This is for Placeholder in tableview."
 
   # This description is used to generate tags and improve search results.
@@ -52,7 +52,7 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "simform solutions" => "reg@simform.in" }
+  spec.author             = { "Vishal Patel" => "vishal.p@simformsolutions.com" }
 
   spec.platform     = :ios
   spec.ios.deployment_target = "11.0"

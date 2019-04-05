@@ -29,10 +29,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="110.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HI test " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RWA-2h-ujR">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Available Data string" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RWA-2h-ujR">
                                                     <rect key="frame" x="15" y="11" width="345" height="89"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -47,15 +47,21 @@
                                 </prototypes>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQi-bs-Cpa">
-                                <rect key="frame" x="225" y="20" width="124" height="30"/>
-                                <state key="normal" title="Available Data API"/>
+                                <rect key="frame" x="197.5" y="20" width="151.5" height="30"/>
+                                <color key="backgroundColor" red="0.52156862749999999" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Available Data API">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="btnActionDataApi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nmA-XT-EYr"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJD-PY-a7h">
-                                <rect key="frame" x="26" y="20" width="124" height="30"/>
-                                <state key="normal" title="NO Data API"/>
+                                <rect key="frame" x="26" y="20" width="151.5" height="30"/>
+                                <color key="backgroundColor" red="0.52156862749999999" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="NO Data API">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="btnActionNoDataAPi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sYd-zC-equ"/>
                                 </connections>
@@ -65,6 +71,7 @@
                         <constraints>
                             <constraint firstItem="Mpp-ce-MId" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3QC-8N-dMU"/>
                             <constraint firstItem="UJD-PY-a7h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="8jH-NG-LWW"/>
+                            <constraint firstItem="OQi-bs-Cpa" firstAttribute="leading" secondItem="UJD-PY-a7h" secondAttribute="trailing" constant="20" id="9gX-Pg-091"/>
                             <constraint firstItem="Mpp-ce-MId" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="APG-oN-y0F"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mpp-ce-MId" secondAttribute="trailing" id="B8D-Ao-pzx"/>
                             <constraint firstItem="OQi-bs-Cpa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GJj-wL-aZG"/>
@@ -92,15 +99,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iCe-AS-BTf">
-                                <rect key="frame" x="225" y="20" width="124" height="30"/>
-                                <state key="normal" title="Available Data API"/>
+                                <rect key="frame" x="197.5" y="20" width="151.5" height="30"/>
+                                <color key="backgroundColor" red="0.52156862745098043" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Available Data API">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="btnActionDataApi:" destination="pxZ-dp-SW2" eventType="touchUpInside" id="fmN-yF-bqQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PIU-pv-CuK">
-                                <rect key="frame" x="26" y="20" width="124" height="30"/>
-                                <state key="normal" title="NO Data API"/>
+                                <rect key="frame" x="26" y="20" width="151.5" height="30"/>
+                                <color key="backgroundColor" red="0.52156862749999999" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="NO Data API">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="btnActionNoDataAPi:" destination="pxZ-dp-SW2" eventType="touchUpInside" id="dqH-Rw-cjS"/>
                                 </connections>
@@ -145,6 +158,7 @@
                             <constraint firstItem="zGe-8K-UIM" firstAttribute="leading" secondItem="V6h-7n-JTn" secondAttribute="leading" id="1DE-C6-4tR"/>
                             <constraint firstItem="zGe-8K-UIM" firstAttribute="top" secondItem="iCe-AS-BTf" secondAttribute="bottom" constant="26" id="6nm-lv-vDy"/>
                             <constraint firstItem="PIU-pv-CuK" firstAttribute="width" secondItem="iCe-AS-BTf" secondAttribute="width" id="9XA-UN-CRI"/>
+                            <constraint firstItem="iCe-AS-BTf" firstAttribute="leading" secondItem="PIU-pv-CuK" secondAttribute="trailing" constant="20" id="DwO-FQ-Z7b"/>
                             <constraint firstItem="iCe-AS-BTf" firstAttribute="top" secondItem="V6h-7n-JTn" secondAttribute="top" id="O3M-SO-23n"/>
                             <constraint firstItem="zGe-8K-UIM" firstAttribute="bottom" secondItem="V6h-7n-JTn" secondAttribute="bottom" id="UuC-qs-z20"/>
                             <constraint firstItem="zGe-8K-UIM" firstAttribute="trailing" secondItem="V6h-7n-JTn" secondAttribute="trailing" id="Y4G-vf-Xs5"/>

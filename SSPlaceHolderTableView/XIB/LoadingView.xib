@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="simformLogo" translatesAutoresizingMaskIntoConstraints="NO" id="gQd-ZT-pYb">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading" translatesAutoresizingMaskIntoConstraints="NO" id="gQd-ZT-pYb">
                     <rect key="frame" x="16" y="164.5" width="343" height="171.5"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="gQd-ZT-pYb" secondAttribute="height" multiplier="1:0.5" id="eIo-k0-2eq"/>
@@ -47,6 +47,6 @@
         </view>
     </objects>
     <resources>
-        <image name="simformLogo" width="180" height="180"/>
+        <image name="loading" width="310" height="310"/>
     </resources>
 </document>
