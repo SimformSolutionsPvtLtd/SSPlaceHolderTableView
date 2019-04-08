@@ -1,5 +1,5 @@
 //
-//  ViewController2.swift
+//  CollectionViewFullDemo.swift
 //  SSPlaceHolderTableView
 //
 //  Created by Vishal Patel on 11/01/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController2: UIViewController {
+class CollectionViewFullDemo: UIViewController {
 
     @IBOutlet weak var collectionView: CollectionView!
     var reachability: Reachability!
@@ -33,7 +33,7 @@ class ViewController2: UIViewController {
     }
     
 }
-extension ViewController2 {
+extension CollectionViewFullDemo {
     func callAPI(isForNoData: Bool) {
         reachability = Reachability()!
         if reachability.connection != .none {
@@ -69,7 +69,7 @@ extension ViewController2 {
     
     
 }
-extension ViewController2 : UICollectionViewDelegate, UICollectionViewDataSource {
+extension CollectionViewFullDemo : UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return 5
     }

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  NoInternetPlaceholder.swift
 //  SSPlaceHolderTableView
 //
 //  Created by Vishal Patel on 11/01/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NoInternetPlaceholder: UIViewController {
 
     @IBOutlet weak var tblView: TableView!
     var reachability: Reachability!
@@ -17,10 +17,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tblView.networkUnReachableBlock = {
-            // put your network Call here.
+            // This is your retry button callBack, put your network Call here.
             self.callAPI(isForNoData: self.isForNoData)
         }
 //        tblView.centerOffSetMultiplier = 0.35      // Change multiplier if you want ot change vertical position of placeHolder Image.
+        
+        /// - parameter noInternetImg: Set Your own No Internet state Image instead use default image.
+        /// - parameter noInternetLabelTitle: Set Your own No Internet State title instead use default title.
+         self.tblView.setState(.checkInternetAvaibility(noInternetImg: nil, noInternetLabelTitle: nil))
     }
     
     @IBAction func btnActionNoDataAPi(_ sender: Any) {
@@ -35,7 +39,7 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController {
+extension NoInternetPlaceholder {
     func callAPI(isForNoData: Bool) {
         reachability = Reachability()!
         if reachability.connection != .none {
@@ -69,16 +73,15 @@ extension ViewController {
     }
     
 }
-extension ViewController : UITableViewDelegate, UITableViewDataSource {
+extension NoInternetPlaceholder : UITableViewDelegate, UITableViewDataSource {
     func numberOfSections(in tableView: UITableView) -> Int {
         return 2
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return 2
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
-        
         return cell!
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
