@@ -1,6 +1,6 @@
 # SSPlaceHolderTableView
 
-> This is simple, customised and easy state wise PlaceHolder for TableView and CollectionView.
+> This is simple, customized and easy state wise PlaceHolder for TableView and CollectionView.
 
 [![Version](https://img.shields.io/cocoapods/v/SSPlaceHolderTableView.svg?style=flat)](https://cocoapods.org/pods/SSPlaceHolderTableView)
 [![License][license-image]][license-url]
@@ -8,6 +8,7 @@
 [![Swift Version][swift-image]][swift-url]
 [![PRs Welcome][PR-image]][PR-url]
 
+![Example](https://media.giphy.com/media/TL6hrx7L4YUXh8HnnX/giphy.gif)
 ## Requirements
 
 - iOS 11.0+
@@ -37,7 +38,7 @@ pod 'SSPlaceHolderTableView'
 ## Usage example
 
 **NetworkUnReachableBlock**
-- If you want to use inbuild Rechability for api call, You can simply add your api call inside this networkUnReachableBlock.
+- If you want to use inbuild Reachability for API call, You can simply add your API call inside this networkUnReachableBlock.
 - Put this code in *viewDidLoad*
 
 
@@ -46,8 +47,8 @@ pod 'SSPlaceHolderTableView'
         }
         
 **Loading State**   
-- You can put this state before your API call or data collectng method.
-- **Customisation**: In loadingImg param You can pass your custom image and in loadingLabelTitle you can pass your custom attributed string.
+- You can put this state before your API call or data collecting method.
+- **Customisation**: In loadingImg param, You can pass your custom image and in loadingLabelTitle you can pass your custom attributed string.
 
 
         tblView.setState(.loading(loadingImg: nil, loadingLabelTitle: nil))
@@ -60,7 +61,7 @@ pod 'SSPlaceHolderTableView'
 
 **Data UnAvailable State**   
 - When your data not available simply put this line in your code.
-- **Customisation**: In noDataImg param You can pass your custom image for no data and in noDataLabelTitle you can pass your custom attributed string.
+- **Customisation**: In noDataImg param, You can pass your custom image for no data and in noDataLabelTitle you can pass your custom attributed string.
 
 
         tblView.setState(.noDataAvailable(noDataImg: nil, noDataLabelTitle: nil))
