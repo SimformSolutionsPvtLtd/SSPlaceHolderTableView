@@ -17,7 +17,7 @@
 ## Installation
 SSPlaceHolderTableView doesn't contain any external dependencies.
 
-It is available through [CocoaPods](https://cocoapods.org). To install
+It is available through [CocoaPods](https://cocoapods.org/pods/SSPlaceHolderTableView). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
