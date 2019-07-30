@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SSPlaceHolderTableView"
-  spec.version      = "1.0.2"
+  spec.version      = "2.0.0"
   spec.summary      = "This is for Placeholder in tableview."
 
   # This description is used to generate tags and improve search results.
@@ -56,7 +56,7 @@ Pod::Spec.new do |spec|
 
   spec.platform     = :ios
   spec.ios.deployment_target = "11.0"
-  spec.swift_version = '4.2'
+  spec.swift_version = '5.0'
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
