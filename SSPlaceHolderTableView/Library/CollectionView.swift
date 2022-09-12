@@ -15,7 +15,7 @@ public class CollectionView: UICollectionView {
     var objNetworkUnavailableView: NetworkUnavailableView?
     var networkUnReachableBlock: (() -> Void)?
 
-    override init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
+    override public init(frame: CGRect, collectionViewLayout layout: UICollectionViewLayout) {
         super.init(frame: frame, collectionViewLayout: layout)
         setUpCollectionView()
     }
