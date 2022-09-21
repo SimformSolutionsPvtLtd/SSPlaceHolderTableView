@@ -75,8 +75,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files = 'SSPlaceHolderTableView/Library/*.swift'
-  spec.resources = ['SSPlaceHolderTableView/XIB/*.xib','SSPlaceHolderTableView/Assets.xcassets']
+  spec.source_files = 'Sources/SSPlaceHolderTableView/Library/*.swift'
+  spec.resources = ['Sources/SSPlaceHolderTableView/Resources/*.xib','Sources/SSPlaceHolderTableView/Resources/Assets.xcassets']
   spec.documentation_url = 'docs/index.html'
 
 end
