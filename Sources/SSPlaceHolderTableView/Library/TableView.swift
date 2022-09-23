@@ -19,7 +19,7 @@ public enum SSPlaceHolderStates {
     case unknown
 }
 
-protocol networkRechabilityProtocol: class {
+protocol networkRechabilityProtocol: AnyObject {
     func retryNetworkCall()
 }
 var gCenterOffSetMultiplier: CGFloat = 0.75
